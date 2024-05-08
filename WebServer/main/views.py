@@ -11,3 +11,15 @@ def about(request):
 
 def catalog(request):
     return render(request, 'main/catalog.html')
+
+
+def result(request):
+    return render(request, 'main/result.html')
+
+
+def info(request):
+    return render(request, 'main/info.html')
+
+
+def error(request):
+    return render(request, 'main/error.html')
